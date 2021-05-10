@@ -1,0 +1,82 @@
+plugins:
+  - jekyll-include-cache  # Needed by mmistakes/minimal-mistakes
+  - jekyll-redirect-from
+  - jekyll-sitemap
+
+include:
+ - _pages
+
+
+# Theme Settings
+remote_theme: "mmistakes/minimal-mistakes@4.22.0"
+minimal_mistakes_skin: air
+tag_archive:
+  type: liquid
+  path: /tags/
+
+locale: zh-TW
+title: LCY's Notes
+name: lcy
+url: https://lcy0321.github.io
+search: true
+github: lcy0321
+timezone: Asia/Taipei
+
+author:
+  name: lcy
+  bio: 我也不知道這邊要打什麼
+  location: Taiwan
+  links:
+    - label: GitHub
+      icon: 'fab fa-fw fa-github'
+      url: https://github.com/lcy0321
+    - label: Linkedin
+      icon: 'fab fa-fw fa-linkedin'
+      url:  https://www.linkedin.com/in/lcy0321
+
+
+# Plugin Settings
+titles_from_headings:
+  enabled: true
+  strip_title: true
+  collections: true
+
+relative_links:
+  enabled: true
+  collections: true
+
+kramdown:
+  hard_wrap: true
+  # The following are set by GitHub Pages and cannot be changed
+  math_engine: mathjax
+  syntax_highlighter: rouge
+
+redirect_from:
+  json: false
+
+
+#  Front Matter Defaults
+defaults:
+  # all
+  - scope:
+      path: ""
+    values:
+      classes: wide
+      author_profile: true
+  # posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      excerpt_separator: <!--more-->
+      show_date: true
+
+
+# The following are set by GitHub Pages and cannot be changed
+lsi: false
+safe: true
+# source: [your repo's top level directory]
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false
