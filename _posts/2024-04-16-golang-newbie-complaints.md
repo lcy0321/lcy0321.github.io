@@ -2,6 +2,7 @@
 layout: single
 tags:
   - Programming
+  - Golang
 ---
 
 # Golang 新手的抱怨
@@ -22,8 +23,8 @@ tags:
 
 Java 是在工作上寫過，接觸約兩年
 JavaScript 工作上和業餘斷斷續續寫過
-工作上也有多少碰到 C、C++、Grrovy 之類的，大概就快到熟悉的程度
-還有碰過像是架這個網站用的 Ruby，之前寫過的 PHP，不過都僅入門等級而已
+工作上也有多少碰到 C、C++、Groovy、Lua 之類的，大概就到略熟悉的程度
+還有碰過像是架這個網站用的 Ruby，之前寫過的 PHP，不過都只有入門等級而已
 
 ## 開始寫 Golang
 
@@ -77,7 +78,7 @@ API reference 很多也都只有簡短說明，有時候都看不出具體的用
 [gomock][3] 是用來產生 mock 物件的工具
 Google 後來不維護了，Uber [接去維護][4]
 同樣也是只有基礎的教學
-比較進階的 `matcher` 用法要自己點進去看原始碼參考
+像是比較進階的 `matcher` 用法要自己點進去看原始碼參考
 
 #### 對比 Python 套件的文件
 
