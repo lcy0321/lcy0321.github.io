@@ -8,7 +8,7 @@ tags:
 
 就某方面滿搞笑的
 
-上一篇兩年多年的文章在講怎麼搬到自架的主機上
+[上一篇兩年多年的文章](./2019-08-29-blog-migration-to-self-hosted-wordpress.md)在講怎麼搬到自架的主機上
 過一年多就又搬到 GitHub Pages
 而且又過了快一年才發這篇文 Orz
 
