@@ -3,6 +3,7 @@ layout: single
 tags:
   - Linux
   - Raspberry Pi
+last_modified_at: 2024-12-30
 ---
 
 # 將 Raspberry Pi 接上 Epson L360 設定成印表機伺服器
@@ -12,6 +13,11 @@ tags:
 結果遇到了不少問題
 
 <!--more-->
+
+## 2024-12-30 更新
+
+這篇的最終解法在幾個月後還是出現了問題
+後來的解法可見[新的文章](./2024-12-30-usb-ip-printer.md)
 
 ## 前情提要
 
