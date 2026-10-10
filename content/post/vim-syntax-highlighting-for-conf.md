@@ -1,13 +1,9 @@
 ---
-layout: single
-tags:
-  - FreeBSD
-  - Linux
-  - Vim
-redirect_from: /221/vim-對於-conf-檔案的-syntax-highlighting/
+title: "Vim 對於 .conf 檔案的 syntax highlighting"
+date: 2018-04-13T00:00:00+08:00
+url: "/2018/04/13/vim-syntax-highlighting-for-conf.html"
+tags: ["FreeBSD", "Linux", "Vim"]
 ---
-
-# Vim 對於 .conf 檔案的 syntax highlighting
 
 前一陣子在使用 FreeBSD 時
 發現開啟 rc.conf 時，vim 沒有將該檔案作為 conf 檔做 syntax highlighting

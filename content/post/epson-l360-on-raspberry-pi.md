@@ -1,12 +1,10 @@
 ---
-layout: single
-tags:
-  - Linux
-  - Raspberry Pi
-last_modified_at: 2024-12-30
+title: "將 Raspberry Pi 接上 Epson L360 設定成印表機伺服器"
+date: 2024-10-20T00:00:00+08:00
+url: "/2024/10/20/epson-l360-on-raspberry-pi.html"
+tags: ["Linux", "Raspberry Pi"]
+lastmod: 2024-12-30T00:00:00+08:00
 ---
-
-# 將 Raspberry Pi 接上 Epson L360 設定成印表機伺服器
 
 最近搬到新家，客廳的印表機沒辦法拉線接到原本的電腦
 所以想說弄一台 Raspberry Pi 接上去，然後透過 Wi-Fi 分享給家裡的其他電腦用
@@ -17,7 +15,7 @@ last_modified_at: 2024-12-30
 ## 2024-12-30 更新
 
 這篇的最終解法在幾個月後還是出現了問題
-後來的解法可見[新的文章](./2024-12-30-usb-ip-printer.md)
+後來的解法可見[新的文章](./usb-ip-printer.md)
 
 ## 前情提要
 

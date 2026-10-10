@@ -1,13 +1,11 @@
 ---
-layout: single
-tags:
-  - Android
-redirect_from: /234/android-8-0-oreo-停用彈出通知視窗/
+title: "Android 8.0 Oreo - 停用彈出通知視窗"
+date: 2018-04-13T00:00:00+08:00
+url: "/2018/04/13/android-8-0-oreo-disable-popup-notofication.html"
+tags: ["Android"]
 ---
 
-# Android 8.0 Oreo - 停用彈出通知視窗
-
-承[上一篇](2018-04-13-android-no-preferred-sim-selected-for-sending-sms-messages.md)
+承[上一篇](./android-no-preferred-sim-selected-for-sending-sms-messages.md)
 一買來 HTC U11 之後，立刻就把它升上了 Android 8.0 Oreo
 結果遇到一個困擾的問題－有些 App 不給關會擋住一部分畫面的彈出通知
 

@@ -1,11 +1,9 @@
 ---
-layout: single
-tags:
-  - Blog
-redirect_from: /356/本部落格遷移歷程/
+title: "本部落格遷移歷程"
+date: 2019-08-29T00:00:00+08:00
+url: "/2019/08/29/blog-migration-to-self-hosted-wordpress.html"
+tags: ["Blog"]
 ---
-
-# 本部落格遷移歷程
 
 原本這個部落格是放在 [WordPress.com](https://wordpress.com/) 上
 不過後來~~閒閒沒事~~想說還是學著架 WordPress 在自己租的主機上看看

@@ -1,11 +1,9 @@
 ---
-layout: single
-tags:
-  - git
-redirect_from: /15/切割git-repo、並更改其部分內容/
+title: "切割 Git Repo、並更改其部分內容"
+date: 2017-03-04T00:00:00+08:00
+url: "/2017/03/04/split-and-modify-git-repos.html"
+tags: ["git"]
 ---
-
-# 切割 Git Repo、並更改其部分內容
 
 因為一些原因
 想把某個 Git Repo 中的資料夾另外分出來

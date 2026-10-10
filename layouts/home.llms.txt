@@ -1,0 +1,12 @@
+# {{ site.Title }}
+
+> {{ site.Params.description }}
+{{ $posts := where site.RegularPages "Section" "post" -}}
+{{ $posts = where $posts "Params.searchHidden" "ne" true -}}
+{{ with $posts }}
+## Posts
+
+{{ range . -}}
+- [{{ .Title }}]({{ printf "markdown/%s" .File.Path | absURL }})
+{{ end -}}
+{{ end -}}

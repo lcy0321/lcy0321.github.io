@@ -1,11 +1,9 @@
 ---
-layout: single
-tags:
-  - Linux
-redirect_from: /114/調整-kali-linux-的滑鼠滾輪滾動方向/
+title: "調整 Kali Linux 的滑鼠滾輪滾動方向"
+date: 2017-03-11T00:00:00+08:00
+url: "/2017/03/11/modify-mouse-scroll-direction-in-kali-linux.html"
+tags: ["Linux"]
 ---
-
-# 調整 Kali Linux 的滑鼠滾輪滾動方向
 
 最近在 VirtualBox 上安裝了 Kali Linux
 遇到的第一件困擾的事情就是滑鼠滾輪滾動的方向跟常用的方向相反

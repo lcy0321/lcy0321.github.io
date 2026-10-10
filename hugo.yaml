@@ -1,0 +1,89 @@
+baseURL: https://blog.lcy.one/
+title: "LCY's Notes"
+copyright: lcy
+# Use PaperMod's Traditional Chinese translation table.
+defaultContentLanguage: zh-tw
+# Use CJK-aware word counts and automatic summaries.
+hasCJKLanguage: true
+# Dates without an explicit offset use the blog's local time.
+timeZone: Asia/Taipei
+enableRobotsTXT: true
+
+theme: PaperMod
+
+pagination:
+  pagerSize: 20
+
+permalinks:
+  page:
+    # New posts use dated URLs; existing posts keep their front matter url.
+    post: "/:year/:month/:day/:slugorcontentbasename/"
+    # Pages such as search live at /search/, outside the content/page section.
+    page: "/:slug/"
+
+taxonomies:
+  tag: tags
+
+outputs:
+  # JSON supplies PaperMod search; LLMS publishes the Markdown article index.
+  home: [HTML, RSS, JSON, LLMS]
+
+outputFormats:
+  RSS:
+    # Preserve the existing /feed.xml subscription URL.
+    baseName: feed
+  # Publish the Markdown article index at /llms.txt.
+  LLMS:
+    mediaType: text/plain
+    baseName: llms
+    # Render the index as text without HTML escaping.
+    isPlainText: true
+
+markup:
+  goldmark:
+    renderer:
+      # Preserve intentional line breaks within paragraphs.
+      hardWraps: true
+    renderHooks:
+      link:
+        # Resolve source .md links to published HTML pages.
+        useEmbedded: always
+  highlight:
+    # Use PaperMod's bundled Chroma CSS instead of Hugo's inline colors.
+    noClasses: false
+
+params:
+  description: lcy 的技術筆記與生活紀錄
+  # List posts on the homepage, excluding the page section used for search.
+  mainSections: [post]
+  DateFormat: "2006-01-02"
+  ShowToc: true
+  # Keep full articles in the feed; PaperMod otherwise emits only summaries.
+  ShowFullTextinRSS: true
+  # Keep Home Info enabled for social icons only.
+  homeInfoParams:
+    Title: ""
+  socialIcons:
+    - name: github
+      url: https://github.com/lcy0321
+    - name: linkedin
+      url: https://www.linkedin.com/in/lcy0321
+
+menus:
+  main:
+    - identifier: home
+      name: 首頁
+      url: /
+      weight: 10
+    - identifier: tags
+      name: 標籤
+      url: /tags/
+      weight: 20
+    - identifier: search
+      name: 搜尋
+      url: /search/
+      weight: 30
+    - identifier: rss
+      name: RSS
+      url: /feed.xml
+      weight: 40

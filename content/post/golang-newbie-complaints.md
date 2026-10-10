@@ -1,11 +1,9 @@
 ---
-layout: single
-tags:
-  - Programming
-  - Golang
+title: "Golang 新手的抱怨"
+date: 2024-04-16T00:00:00+08:00
+url: "/2024/04/16/golang-newbie-complaints.html"
+tags: ["Programming", "Golang"]
 ---
-
-# Golang 新手的抱怨
 
 睽違了兩年多的部落格更新
 是要來抱怨這幾個月學 + 用 Golang 的使用體驗

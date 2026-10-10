@@ -1,13 +1,11 @@
 ---
-layout: single
-tags:
-  - Linux
-  - Raspberry Pi
+title: "透過 USB/IP 把印表機接到 Windows 電腦上"
+date: 2024-12-30T00:00:00+08:00
+url: "/2024/12/30/usb-ip-printer.html"
+tags: ["Linux", "Raspberry Pi"]
 ---
 
-# 透過 USB/IP 把印表機接到 Windows 電腦上
-
-幾個月前的文章 [將 Raspberry Pi 接上 Epson L360 設定成印表機伺服器](./2024-10-20-epson-l360-on-raspberry-pi.md)
+幾個月前的文章 [將 Raspberry Pi 接上 Epson L360 設定成印表機伺服器](./epson-l360-on-raspberry-pi.md)
 提到了需要把印表機接上 Raspberry Pi 來分享給家裡的其它電腦用
 最後是透過 Samba + CUPS 做到
 並對 ENPC 的請求封包回傳一個空的回應來解決驅動程式會卡住的困擾
@@ -19,7 +17,7 @@ tags:
 
 ## 前情提要
 
-一些背景就不重複了，可以參考[前一篇文章](./2024-10-20-epson-l360-on-raspberry-pi.md#前情提要)
+一些背景就不重複了，可以參考[前一篇文章](./epson-l360-on-raspberry-pi.md#前情提要)
 簡單來說就是要把一台接到 Raspberry Pi 的印表機
 不透過實體 USB 線，弄到可以從 Windows 電腦上列印
 

@@ -1,14 +1,13 @@
 ---
-layout: single
-tags:
-  - Blog
+title: "本部落格轉移至 GitHub Pages"
+date: 2022-04-09T00:00:00+08:00
+url: "/2022/04/09/blog-migration-to-github-pages.html"
+tags: ["Blog"]
 ---
-
-# 本部落格轉移至 GitHub Pages
 
 就某方面滿搞笑的
 
-[上一篇兩年多年的文章](./2019-08-29-blog-migration-to-self-hosted-wordpress.md)在講怎麼搬到自架的主機上
+[上一篇兩年多年的文章](./blog-migration-to-self-hosted-wordpress.md)在講怎麼搬到自架的主機上
 過一年多就又搬到 GitHub Pages
 而且又過了快一年才發這篇文 Orz
 

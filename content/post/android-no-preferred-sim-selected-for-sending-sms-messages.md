@@ -1,11 +1,9 @@
 ---
-layout: single
-tags:
-  - Android
-redirect_from: /232/android-訊息（簡訊-app）-尚未選取傳送簡訊時慣用的sim卡/
+title: "Android 訊息（簡訊 App）- 尚未選取傳送簡訊時慣用的SIM卡"
+date: 2018-04-13T00:00:00+08:00
+url: "/2018/04/13/android-no-preferred-sim-selected-for-sending-sms-messages.html"
+tags: ["Android"]
 ---
-
-# Android 訊息（簡訊 App）- 尚未選取傳送簡訊時慣用的SIM卡
 
 最近入手了 HTC U11
 因為個人比較習慣 Google 官方的簡訊 App （[Android 訊息](https://play.google.com/store/apps/details?id=com.google.android.apps.messaging)）

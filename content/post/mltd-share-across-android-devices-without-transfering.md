@@ -1,12 +1,9 @@
 ---
-layout: single
-tags:
-  - Android
-  - Mobile Game
-redirect_from: /245/mltd（ミリシタ）android-免引繼複製帳號資料/
+title: "MLTD（ミリシタ）Android 免引繼複製帳號資料"
+date: 2019-01-15T00:00:00+08:00
+url: "/2019/01/15/mltd-share-across-android-devices-without-transfering.html"
+tags: ["Android", "Mobile Game"]
 ---
-
-# MLTD（ミリシタ）Android 免引繼複製帳號資料
 
 這篇是要介紹如何在不用登入萬代帳號進行引繼的狀況下
 將 MLTD（ミリシタ，アイドルマスター ミリオンライブ！ シアターデイズ）的帳號資料從原本的 Android 裝置複製到另一個 Android 裝置

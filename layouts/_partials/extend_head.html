@@ -1,0 +1,14 @@
+{{- if and .IsPage (eq .Section "post") -}}
+{{- $body := replace .RawContent "<!--more-->" "" | strings.TrimSpace -}}
+{{- $content := printf "# %s\n\nCanonical: %s\nPublished: %s\nUpdated: %s\nTags: %s\n\n%s\n"
+    .Title
+    .Permalink
+    (.Date.Format "2006-01-02T15:04:05Z07:00")
+    (.Lastmod.Format "2006-01-02T15:04:05Z07:00")
+    (delimit (default (slice) .Params.tags) ", ")
+    $body
+-}}
+{{- $markdown := resources.FromString (printf "markdown/%s" .File.Path) $content -}}
+{{/* Permalink also publishes the resource. */}}
+<link rel="alternate" type="text/markdown" title="Markdown" href="{{ $markdown.Permalink }}">
+{{- end -}}

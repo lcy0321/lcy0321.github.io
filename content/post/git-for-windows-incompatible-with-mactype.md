@@ -1,12 +1,9 @@
 ---
-layout: single
-tags:
-  - git
-  - MacType
-redirect_from: /184/git-for-windows-與-mactype-神奇的衝突/
+title: "Git for Windows 與 MacType 神奇的衝突"
+date: 2017-07-13T00:00:00+08:00
+url: "/2017/07/13/git-for-windows-incompatible-with-mactype.html"
+tags: ["git", "MacType"]
 ---
-
-# Git for Windows 與 MacType 神奇的衝突
 
 今天在 Windows 7 上用 Git Bash 的時候
 遇到了一些奇怪的問題

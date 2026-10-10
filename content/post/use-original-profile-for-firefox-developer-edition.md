@@ -1,11 +1,9 @@
 ---
-layout: single
-tags:
-  - Firefox
-redirect_from: /138/在-firefox-developer-edition-使用原本的設定檔（profile）/
+title: "在 Firefox Developer Edition 使用原本的設定檔（profile）"
+date: 2017-07-06T00:00:00+08:00
+url: "/2017/07/06/use-original-profile-for-firefox-developer-edition.html"
+tags: ["Firefox"]
 ---
-
-# 在 Firefox Developer Edition 使用原本的設定檔（profile）
 
 用了幾年的第三方編譯版 Firefox 已經一個多月沒更新了
 在用這個版本之前 一直都是用官方的 Aurora Channel
